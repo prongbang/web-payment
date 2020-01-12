@@ -20,7 +20,7 @@
     <button id="buy">Buy Now</button>
     <script>
       (function (d, w) {
-        var buyButton = d.getElementById('buy');
+        var buyButton = document.getElementById('buy');
         if (!window.PaymentRequest) {
           buyButton.setAttribute('disabled', '');
           buyButton.text = 'Disabled';
